@@ -8,11 +8,19 @@ export default function Cv() {
           <h1 className="text-3xl font-bold">Can ÖZTÜRK</h1>
           <p>
             LinkedIn:{" "}
-            <a className="text-blue-600" href="https://linkedin.com/in/cnztrk">
+            <a
+              className="text-blue-600"
+              target="_blank"
+              href="https://linkedin.com/in/cnztrk"
+            >
               cnztrk
             </a>{" "}
             | GitHub:{" "}
-            <a className="text-blue-600" href="https://github.com/forzzerino">
+            <a
+              className="text-blue-600"
+              target="_blank"
+              href="https://github.com/forzzerino"
+            >
               forzzerino
             </a>
           </p>
@@ -55,30 +63,46 @@ export default function Cv() {
             {" "}
             <div>
               <p class="font-bold">
-                07/2025 - Present /{" "}
+                07/2025 - 08/2025 /{" "}
                 <span className="underline">
                   Software Engineer Intern at{" "}
                   <a class="text-blue-600" href="https://i2i-systems.com">
                     i2i Systems
                   </a>
                 </span>
-              </p>
-              <p>
-                Took role on a telecommunication app. Created a Java program
-                that polls messages from Kafka Notification topic and sends
-                notification requests to a Mock Service. The Service informed
-                clients of their left tariffs as called "Notification Service".
-              </p>
-              <ul className="list-disc list-inside flex gap-4 lg:text-base text-sm">
-                <li>Java</li>
-                <li>Unix</li>
-                <li>Docker</li>
+              </p>{" "}
+              <ul className="list-disc list-inside flex gap-4 lg:text-base text-sm mb-2">
+                <li>Node.js</li>
                 <li>Kafka</li>
+                <li>Google Cloud</li>
+                <li>Microservices</li>
+                <li>Figma</li>
+                <li>React</li>
               </ul>
+              <p>
+                • Took an active role in a microservices-based telecommunication
+                project by developing the Notification Service module.
+                <br /> • Built a program to poll messages from a Kafka and send
+                notification requests via SMTP Protocol, informing users of
+                their remaining tariffs.
+                <br /> • Designed and developed a real-time{" "}
+                <a
+                  href="https://health-dashboard-azure.vercel.app"
+                  className="underline text-blue-600 font-semibold"
+                  target="_blank"
+                >
+                  status monitoring dashboard
+                </a>{" "}
+                to track module health and activity across services.
+                <br /> • Led the UI/UX design process of the project using
+                Figma.
+                <br /> • Collaborated with team members in deploying and
+                integrating services on Google Cloud.
+              </p>
             </div>
             <div>
               <p class="font-bold">
-                03/2025 - Present /{" "}
+                03/2025 - PRESENT /{" "}
                 <span className="underline">
                   Graphic Designer at{" "}
                   <a class="text-blue-600" href="https://sksdb.bandirma.edu.tr">
@@ -90,7 +114,7 @@ export default function Cv() {
             </div>
             <div>
               <p class="font-bold">
-                10/2024 - Present /{" "}
+                10/2024 - PRESENT /{" "}
                 <span className="underline">
                   Backend Developer at{" "}
                   <a
@@ -111,7 +135,7 @@ export default function Cv() {
             </div>
             <div>
               <p class="font-bold">
-                08/2024 - Present /{" "}
+                08/2024 - PRESENT /{" "}
                 <span className="underline">
                   Founder & Web Dev at{" "}
                   <a
@@ -138,20 +162,20 @@ export default function Cv() {
                   </a>
                 </span>
               </p>
-              I have completed my first internship as Full Stack Web Developer
-              Intern in OGZA Teknoloji AŞ, Istanbul. In the process of my
-              intern, I started developing my intern project named 'Eşyan
-              Kampüste' and that is still developing.
-              <ul className="list-disc list-inside flex gap-4 lg:text-base text-sm">
+              <ul className="list-disc list-inside flex gap-4 lg:text-base text-sm mb-2">
                 <li>UI/UX (Figma)</li>
                 <li>NodeJS</li>
                 <li>VueJS</li>
                 <li>Postgres</li>
               </ul>
+              I have completed my first internship as Full Stack Web Developer
+              Intern in OGZA Teknoloji AŞ, Istanbul. In the process of my
+              intern, I started developing my intern project named 'Eşyan
+              Kampüste' and that is still developing.
             </div>
             <div>
               <p class="font-bold">
-                01/2015 - Present /{" "}
+                01/2015 - PRESENT /{" "}
                 <span className="underline">Graphic Designer (Freelance)</span>
               </p>
               <p>
